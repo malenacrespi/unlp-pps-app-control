@@ -1,0 +1,19 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-buttons slot="end">
+      <ion-button fill="solid" (click)="navigateToEnvironmentMap()">
+        {{ 'HOME.ENV_MAP' | translate }}<ion-icon slot="end" name="map"></ion-icon>
+      </ion-button>
+      <ion-button (click)="navigateToSettings()">
+        <ion-icon default-href="#" ios="ellipsis-horizontal" md="ellipsis-vertical"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>{{ 'HOME.TITLE' | translate }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="background" [fullscreen]="true">
+  <!--<app-device-status></app-device-status>-->
+  <app-robot-status></app-robot-status>
+  <app-control-buttons></app-control-buttons>
+</ion-content>

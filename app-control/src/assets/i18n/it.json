@@ -1,0 +1,55 @@
+{
+    "HOME": {
+        "TITLE": "Controllore",
+        "ENV_MAP": "Mappa",
+        "DEVICE_STATUS": {
+            "TTILE": "Stato del dispositivo",
+            "CONNECTION_STATUS_TITLE": "Stato della conenessione",
+            "CONNECTION_STATUS_ONLINE": "In linea",
+            "CONNECTION_STATUS_OFFLINE": "Non in linea"
+        },
+        "ROBOT_STATUS": {
+            "TITLE": "Stato del Robot",
+            "CONNECTION_STATUS_TITLE": "Stato della connessione",
+            "CONNECTION_STATUS_ONLINE": "In linea",
+            "CONNECTION_STATUS_OFFLINE": "Non in linea",
+            "BATTERY_LEVEL_TITLE": "Livello della batteria",
+            "BATTERY_LEVEL_UNAVAILABLE": "Non disponibile"
+        },
+        "ROBOT_CONTROL": {
+            "TITLE": "Controllore del Robot",
+            "CONTROL_MODE_TITLE": "Modalità di controllo",
+            "CONTROL_MODE_MANUAL": "Manuale",
+            "CONTROL_MODE_AUTO": "Autonomo"
+        }
+    },
+
+    "SETTINGS": {
+        "TITLE": "Configurazione",
+        "ROBOT_SETTINGS": {
+            "TITLE": "Robot",
+            "PROTOCOL_TITLE": "Protocollo"
+        },
+        "APP_SETTINGS": {
+            "TITLE": "Applicazione",
+            "LANGUAGE_TITLE": "Lingua",
+            "HELP_TITLE": "Aiuto",
+            "ABOUT_TITLE": "Sull'applicazione"
+        }
+    },
+
+    "LANGUAGES": {
+        "ENGLISH": "Inglese",
+        "SPANISH": "Spagnolo",
+        "PORTUGUESE": "Portoghese",
+        "ITALIAN": "Italiano",
+        "TURKISH": "Turco"
+    },
+    
+    "ALERTS": {
+        "ERROR_TITLE": "Errore",
+        "ERROR_MESSAGE_UNABLE_TO_CONNECT": "Impossibile connettersi al robot. Per favore riprova più tardi.",
+        "WARNING_TITLE": "Avvertimento",
+        "WARNING_MESSAGE_FEATURE_UNDER_DEVELOPMENT": "Questa funzionalità è ancora in fase di sviluppo!"
+    }
+}

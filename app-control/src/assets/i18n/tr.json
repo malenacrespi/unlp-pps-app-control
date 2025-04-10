@@ -1,0 +1,55 @@
+{
+    "HOME": {
+        "TITLE": "Kontrol",
+        "ENV_MAP": "Harita",
+        "DEVICE_STATUS": {
+            "TTILE": "Cihaz Durumu",
+            "CONNECTION_STATUS_TITLE": "Bağlantı durumu",
+            "CONNECTION_STATUS_ONLINE": "Çevrimiçi",
+            "CONNECTION_STATUS_OFFLINE": "Çevrimdışı"
+        },
+        "ROBOT_STATUS": {
+            "TITLE": "Robot Durumu",
+            "CONNECTION_STATUS_TITLE": "Bağlantı durumu",
+            "CONNECTION_STATUS_ONLINE": "Çevrimiçi",
+            "CONNECTION_STATUS_OFFLINE": "Çevrimdışı",
+            "BATTERY_LEVEL_TITLE": "Pil seviyesi",
+            "BATTERY_LEVEL_UNAVAILABLE": "Müsait değil"
+        },
+        "ROBOT_CONTROL": {
+            "TITLE": "Robot Kontrolü",
+            "CONTROL_MODE_TITLE": "Kontrol modu",
+            "CONTROL_MODE_MANUAL": "Manuel",
+            "CONTROL_MODE_AUTO": "Özerklik"
+        }
+    },
+
+    "SETTINGS": {
+        "TITLE": "Ayarlar",
+        "ROBOT_SETTINGS": {
+            "TITLE": "Robot",
+            "PROTOCOL_TITLE": "Protokol"
+        },
+        "APP_SETTINGS": {
+            "TITLE": "Uygulama",
+            "LANGUAGE_TITLE": "Dil",
+            "HELP_TITLE": "Yardım",
+            "ABOUT_TITLE": "Uygulama hakkında"
+        }
+    },
+
+    "LANGUAGES": {
+        "ENGLISH": "İngilizce",
+        "SPANISH": "İspanyolca",
+        "PORTUGUESE": "Portekizce",
+        "ITALIAN": "İtalyanca",
+        "TURKISH": "Türkçe"
+    },
+    
+    "ALERTS": {
+        "ERROR_TITLE": "Hata",
+        "ERROR_MESSAGE_UNABLE_TO_CONNECT": "Robota bağlanılamıyor. Lütfen daha sonra tekrar deneyin.",
+        "WARNING_TITLE": "Uyarı",
+        "WARNING_MESSAGE_FEATURE_UNDER_DEVELOPMENT": "Bu özellik halen geliştirilme aşamasındadır!"
+    }
+}

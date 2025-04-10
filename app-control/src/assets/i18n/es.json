@@ -1,0 +1,55 @@
+{
+    "HOME": {
+        "TITLE": "Control",
+        "ENV_MAP": "Mapa",
+        "DEVICE_STATUS": {
+            "TTILE": "Estado del Dispositivo",
+            "CONNECTION_STATUS_TITLE": "Estado de conexión",
+            "CONNECTION_STATUS_ONLINE": "En línea",
+            "CONNECTION_STATUS_OFFLINE": "Desconectado"
+        },
+        "ROBOT_STATUS": {
+            "TITLE": "Estado del Robot",
+            "CONNECTION_STATUS_TITLE": "Estado de conexión",
+            "CONNECTION_STATUS_ONLINE": "En línea",
+            "CONNECTION_STATUS_OFFLINE": "Desconectado",
+            "BATTERY_LEVEL_TITLE": "Nivel de batería",
+            "BATTERY_LEVEL_UNAVAILABLE": "No disponible"
+        },
+        "ROBOT_CONTROL": {
+            "TITLE": "Control del Robot",
+            "CONTROL_MODE_TITLE": "Modo de control",
+            "CONTROL_MODE_MANUAL": "Manual",
+            "CONTROL_MODE_AUTO": "Autónomo"
+        }
+    },
+
+    "SETTINGS": {
+        "TITLE": "Configuración",
+        "ROBOT_SETTINGS": {
+            "TITLE": "Robot",
+            "PROTOCOL_TITLE": "Protocolo"
+        },
+        "APP_SETTINGS": {
+            "TITLE": "Aplicación",
+            "LANGUAGE_TITLE": "Idioma",
+            "HELP_TITLE": "Ayuda",
+            "ABOUT_TITLE": "Acerca de la aplicación"
+        }
+    },
+
+    "LANGUAGES": {
+        "ENGLISH": "Inglés",
+        "SPANISH": "Español",
+        "PORTUGUESE": "Portugués",
+        "ITALIAN": "Italiano",
+        "TURKISH": "Turco"
+    },
+    
+    "ALERTS": {
+        "ERROR_TITLE": "Error",
+        "ERROR_MESSAGE_UNABLE_TO_CONNECT": "No se pudo conectar con el robot. Por favor intenta de nuevo más tarde.",
+        "WARNING_TITLE": "Advertencia",
+        "WARNING_MESSAGE_FEATURE_UNDER_DEVELOPMENT": "¡Esta función aún está en desarrollo!"
+    }
+}

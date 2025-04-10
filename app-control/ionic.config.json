@@ -1,0 +1,7 @@
+{
+  "name": "III-LIDI Robot IoT",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

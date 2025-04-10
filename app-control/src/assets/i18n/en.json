@@ -1,0 +1,55 @@
+{
+    "HOME": {
+        "TITLE": "Control",
+        "ENV_MAP": "Map",
+        "DEVICE_STATUS": {
+            "TTILE": "Device Status",
+            "CONNECTION_STATUS_TITLE": "Connection status",
+            "CONNECTION_STATUS_ONLINE": "Online",
+            "CONNECTION_STATUS_OFFLINE": "Offline"
+        },
+        "ROBOT_STATUS": {
+            "TITLE": "Robot Status",
+            "CONNECTION_STATUS_TITLE": "Connection status",
+            "CONNECTION_STATUS_ONLINE": "Online",
+            "CONNECTION_STATUS_OFFLINE": "Offline",
+            "BATTERY_LEVEL_TITLE": "Battery level",
+            "BATTERY_LEVEL_UNAVAILABLE": "Unavailable"
+        },
+        "ROBOT_CONTROL": {
+            "TITLE": "Robot Control",
+            "CONTROL_MODE_TITLE": "Control mode",
+            "CONTROL_MODE_MANUAL": "Manual",
+            "CONTROL_MODE_AUTO": "Autonomy"
+        }
+    },
+
+    "SETTINGS": {
+        "TITLE": "Settings",
+        "ROBOT_SETTINGS": {
+            "TITLE": "Robot",
+            "PROTOCOL_TITLE": "Protocol"
+        },
+        "APP_SETTINGS": {
+            "TITLE": "Application",
+            "LANGUAGE_TITLE": "Language",
+            "HELP_TITLE": "Help",
+            "ABOUT_TITLE": "About application"
+        }
+    },
+
+    "LANGUAGES": {
+        "ENGLISH": "English",
+        "SPANISH": "Spanish",
+        "PORTUGUESE": "Portuguese",
+        "ITALIAN": "Italian",
+        "TURKISH": "Turkish"
+    },
+    
+    "ALERTS": {
+        "ERROR_TITLE": "Error",
+        "ERROR_MESSAGE_UNABLE_TO_CONNECT": "Unable to connect to robot. Please try again later.",
+        "WARNING_TITLE": "Warning",
+        "WARNING_MESSAGE_FEATURE_UNDER_DEVELOPMENT": "This feature is still under development!"
+    }
+}
