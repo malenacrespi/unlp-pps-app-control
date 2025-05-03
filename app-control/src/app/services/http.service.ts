@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { EdgeNodeReply } from '../common/interfaces';
 import { lastValueFrom } from 'rxjs';
-import { AlertService } from './alert.service';
 
 @Injectable({
   providedIn: 'root'
@@ -14,7 +13,6 @@ export class HttpService {
 
   constructor(
     public httpClient: HttpClient,
-    private alertService: AlertService
   ) {
     this.consecutiveErrors = 0;
   }
