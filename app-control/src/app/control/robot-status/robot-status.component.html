@@ -1,11 +1,11 @@
-<!----- ROBOT STATUS ----------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- ==================== Robot Status Card ===================== -->
 <ion-card>
   <ion-card-header>
     <ion-card-title>{{ 'HOME.ROBOT_STATUS.TITLE' | translate }}</ion-card-title>
   </ion-card-header>
   <ion-card-content>
     <ion-item-group>
-<!----- Connection ------------------------------------------------------------------------------------------------------------------------------------------------->
+      <!-- Connection Status -->
       <ion-item>
         <ion-icon name="wifi" slot="start" color="{{ getConnectionStatusColor() }}"></ion-icon>
         <ion-label>
@@ -13,7 +13,7 @@
           <h3>{{ getConnectionStatus() ? ('HOME.ROBOT_STATUS.CONNECTION_STATUS_ONLINE' | translate) : ('HOME.ROBOT_STATUS.CONNECTION_STATUS_OFFLINE' | translate) }}</h3>
         </ion-label>
       </ion-item>
-<!----- Robot Battery ---------------------------------------------------------------------------------------------------------------------------------------------->
+      <!-- Robot Battery Status -->
       <ion-item>
         <ion-icon name="{{ getBatteryLevelIcon() }}" slot="start" color="{{ getBatteryLevelColor() }}"></ion-icon>
         <ion-label>
@@ -21,8 +21,7 @@
           <h3>{{ getBatteryLevelPercentage() >= 0 ? (getBatteryLevelPercentage().toString()+"%") : ('HOME.ROBOT_STATUS.BATTERY_LEVEL_UNAVAILABLE' | translate) }}</h3>
         </ion-label>
       </ion-item>
-<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
     </ion-item-group>
   </ion-card-content>
 </ion-card>
-<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+

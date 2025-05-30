@@ -1,19 +1,27 @@
+<!-- =================== Control Page Header ==================== -->
 <ion-header [translucent]="true">
+  <!-- Toolbar -->
   <ion-toolbar color="primary">
     <ion-buttons slot="end">
+      <!-- Navigate to Environment Map button -->
       <ion-button fill="solid" (click)="navigateToEnvironmentMap()">
         {{ 'HOME.ENV_MAP' | translate }}<ion-icon slot="end" name="map"></ion-icon>
       </ion-button>
+      <!-- Navigate to Settings button -->
       <ion-button (click)="navigateToSettings()">
         <ion-icon default-href="#" ios="ellipsis-horizontal" md="ellipsis-vertical"></ion-icon>
       </ion-button>
     </ion-buttons>
+    <!-- Page title -->
     <ion-title>{{ 'HOME.TITLE' | translate }}</ion-title>
   </ion-toolbar>
 </ion-header>
-
+<!-- =================== Control Page Content =================== -->
 <ion-content class="background" [fullscreen]="true">
+  <!-- Display device status -->
   <!--<app-device-status></app-device-status>-->
+  <!-- Display robot status -->
   <app-robot-status></app-robot-status>
+  <!-- Display control buttons -->
   <app-control-buttons></app-control-buttons>
 </ion-content>

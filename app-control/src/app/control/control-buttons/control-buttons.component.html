@@ -1,11 +1,11 @@
-<!----- ROBOT CONTROL ---------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- ==================== Robot Control Card ==================== -->
 <ion-card>
   <ion-card-header>
     <ion-card-title>{{ 'HOME.ROBOT_CONTROL.TITLE' | translate }}</ion-card-title>
   </ion-card-header>
   <ion-card-content>
     <ion-item-group>
-<!----- Control Mode ----------------------------------------------------------------------------------------------------------------------------------------------->
+    <!-- Control Mode -->
     <ion-item>
       <ion-icon name="{{ getControlModeIcon() }}" color="{{ getControlModeColor() }}" slot="start" color=""></ion-icon>
       <ion-label>
@@ -13,29 +13,33 @@
         <h3>{{ getControlMode() ? ('HOME.ROBOT_CONTROL.CONTROL_MODE_MANUAL' | translate) : ('HOME.ROBOT_CONTROL.CONTROL_MODE_AUTO' | translate) }}</h3>
       </ion-label>
     </ion-item>
-<!----- Control ---------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!-- Control Buttons -->
       <ion-item>
         <ion-grid>
           <div class="control-buttons">
+            <!-- Command 'forward' button -->
             <ion-button appLongPress size="large" [disabled]="controlDisable()" color="primary" (longPress)="robotCommand('adelante')"><ion-icon
               name="caret-up"></ion-icon></ion-button>
           </div>
           <div class="control-buttons">
+            <!-- Command 'left' button -->
             <ion-button appLongPress class="control-button-left" size="large" [disabled]="controlDisable()" color="primary" (longPress)="robotCommand('izquierda')"><ion-icon
               name="caret-back"></ion-icon></ion-button>
+            <!-- Command 'autonomy' button -->
             <ion-button size="large" [disabled]="controlDisableAutonomy()" (click)="robotCommand('autonomia')" [color]="getAutonomyModeButtonColor()"><ion-icon
               name="compass"></ion-icon></ion-button>
+            <!-- Command 'right' button -->
             <ion-button appLongPress class="control-button-right" size="large" [disabled]="controlDisable()" color="primary" (longPress)="robotCommand('derecha')"><ion-icon
               name="caret-forward"></ion-icon></ion-button>
           </div>
           <div class="control-buttons">
+            <!-- Command 'backwards' button -->
             <ion-button appLongPress size="large" [disabled]="controlDisable()" color="primary" (longPress)="robotCommand('atras')"><ion-icon
               name="caret-down"></ion-icon></ion-button>
           </div>
         </ion-grid>
       </ion-item>
-<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
     </ion-item-group>
   </ion-card-content>
 </ion-card>
-<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
